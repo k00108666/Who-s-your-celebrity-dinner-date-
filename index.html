@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="celebsCss.css">
+    <link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+
+
+
+    <?php
+
+    require "celebFind.php";
+
+    ?>
+</head>
+
+<body id="index-body">
+
+<div class="col-md-4 col-md-offset-4 content-text">
+<h1 class="text-center"><strong>Who is your celebrity dinner date?</strong></h1>
+
+
+
+<form action="celebFind.php" method="post" class="form-inline text-center">
+
+
+    <div class="form-group content-padding">
+    <input class="content-text" type="text"  id="name" name="name"  placeholder="What is your name?"><br>
+    </div><br>
+
+
+
+    <div class="form-group content-padding">
+    <input class="content-text" type="text" id="age" name="age"  placeholder="How old are you?">
+    </div><br>
+
+    <div class="form-group content-padding">
+    <label>What is your favorite continent?</label><br>
+    <select class="content-text" name="continent" id="continent">
+        <option selected>North America
+        <option>Europe
+        <option>Asia
+        <option>Africa
+
+    </select>
+    </div><br>
+
+    <div class="content-padding">
+    <input  type="submit" class="form-control" >
+    </div>
+
+</form>
+
+</div>
+
+
+</body>
+</html>
+

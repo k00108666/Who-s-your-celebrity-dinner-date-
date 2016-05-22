@@ -1,0 +1,45 @@
+#index-body{
+    background-image: url("http://i.telegraph.co.uk/multimedia/archive/02839/oscarsselfie_2839758b.jpg");
+    background-size: cover
+
+
+}
+
+#result-body {
+
+    background-image: url("https://encrypted-tbn1.gstatic.com/images?q=tbn:ANd9GcQpoSEo2FPPWeIv3U7AfS25xRorYmL-C9ggd6neveU2aBP4feti");
+    background-size: cover
+
+
+}
+
+.content-continent-input{
+background: black;
+color: white;
+
+
+}
+
+
+
+.content-padding{
+
+    padding:10px;
+
+}
+
+
+
+
+.content-text {
+
+    background: black;
+    color: white;
+    border: hidden;
+
+
+
+
+}
+
+
